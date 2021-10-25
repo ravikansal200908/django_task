@@ -1,0 +1,154 @@
+{
+	"id": "299e1817-ba16-4b83-8d57-0a1d77605f71",
+	"name": "django test",
+	"description": "",
+	"auth": null,
+	"events": null,
+	"variables": [],
+	"order": [
+		"8da1393c-a106-4868-9a5c-b1c8d57bd3ed",
+		"792f990c-ac34-42be-83d4-acdd566934d4",
+		"bc4f3a30-f2a8-4286-bbfd-3592e78b3376",
+		"dacbf9fa-9753-40b1-8270-a293ffb67869",
+		"b4399452-664a-4d2f-b8c9-2507ebe8d8ac",
+		"fc941b1a-ee88-4113-8021-eef51f361250"
+	],
+	"folders_order": [],
+	"protocolProfileBehavior": {},
+	"folders": [],
+	"requests": [
+		{
+			"id": "792f990c-ac34-42be-83d4-acdd566934d4",
+			"name": "http://127.0.0.1:8000/api/website/geeksforgeeks",
+			"url": "http://127.0.0.1:8000/api/website/geeksforgeeks",
+			"description": "get retrive delete update using website name",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "8da1393c-a106-4868-9a5c-b1c8d57bd3ed",
+			"name": "http://127.0.0.1:8000/api/website",
+			"url": "http://127.0.0.1:8000/api/website",
+			"description": "",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"rawModeData": "{\n    \"website_url\":\"https://www.geeksforgeeks.org/python-convert-list-tuples-dictionary\",\n    \"website_name\":\"geeksforgeeks\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		},
+		{
+			"id": "b4399452-664a-4d2f-b8c9-2507ebe8d8ac",
+			"name": "http://127.0.0.1:8000/api/website/geeksforgeeks/5",
+			"url": "http://127.0.0.1:8000/api/website/geeksforgeeks/5",
+			"description": "get most common word from a aparticular website\n",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "bc4f3a30-f2a8-4286-bbfd-3592e78b3376",
+			"name": "http://127.0.0.1:8000/api/website/geeksforgeeks/5",
+			"url": "http://127.0.0.1:8000/api/retrive_common_word/5",
+			"description": "get the most common word from a particular website",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "dacbf9fa-9753-40b1-8270-a293ffb67869",
+			"name": "http://127.0.0.1:8000/api/website/geeksforgeeks/5",
+			"url": "http://127.0.0.1:8000/api/retrive_common_word/5",
+			"description": "get most common word from all db html content",
+			"data": null,
+			"dataOptions": null,
+			"dataMode": null,
+			"headerData": null,
+			"method": "GET",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"pathVariables": {}
+		},
+		{
+			"id": "fc941b1a-ee88-4113-8021-eef51f361250",
+			"name": "http://127.0.0.1:8000/api/website",
+			"url": "http://127.0.0.1:8000/api/website",
+			"description": "create website record",
+			"data": [],
+			"dataOptions": {
+				"raw": {
+					"language": "json"
+				}
+			},
+			"dataMode": "raw",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"type": "text",
+					"enabled": true
+				}
+			],
+			"method": "POST",
+			"pathVariableData": [],
+			"queryParams": [],
+			"auth": null,
+			"events": null,
+			"folder": null,
+			"rawModeData": "{\n    \"website_url\":\"https://www.geeksforgeeks.org/python-convert-list-tuples-dictionary\",\n    \"website_name\":\"geeksforgeeks\"\n}",
+			"headers": "Content-Type: application/json\n",
+			"pathVariables": {}
+		}
+	]
+}
